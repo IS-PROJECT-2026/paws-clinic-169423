@@ -11,7 +11,7 @@
 ## 3. Reflection 
 
 ### A. Your Best Commit
-**Commit URL:** [[Paste the URL to your 'feat: implement responsive CSS grid for services' commit here]](https://github.com/IS-PROJECT-2026/paws-clinic-169423/commit/b4694ae1c74dba5a431989ae1963d16170bfe991)
+**Commit URL:** https://github.com/IS-PROJECT-2026/paws-clinic-169423/commit/b4694ae1c74dba5a431989ae1963d16170bfe991
 **Why this one?** This commit clearly follows the Conventional Commits specification. The `feat:` type accurately categorizes the addition of the new UI section, the subject line is concise, and the body provides exact context on what the code achieves while properly closing Issue #5.
 
 ### B. A Mistake or Struggle
@@ -24,7 +24,7 @@
 
 ### D. One Thing You Would Do Differently
 **What would you change?** If I restarted, I would define my CSS custom properties (variables) much earlier in the Kanban planning phase as a dedicated chore issue, rather than establishing them while building the first feature. This would streamline styling across branches.
-**Link to the evidence of the original decision:** [Paste the URL to your very first commit/PR where you set up `style.css`]
+**Link to the evidence of the original decision:** https://github.com/IS-PROJECT-2026/paws-clinic-169423/commit/65d55b0c11719356b6305b0144fd15f5385f9460
 
 ## 4. Screenshots of Key GitHub Features
 
