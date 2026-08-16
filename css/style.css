@@ -274,3 +274,36 @@ nav a {
     border-radius: 4px;
     font-family: inherit;
 }
+/* Mobile Navigation Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px; height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .hamburger { display: flex; }
+    
+    .nav-links {
+        display: none; /* Hidden on mobile by default */
+        flex-direction: column;
+        position: absolute;
+        top: 100%; left: 0; width: 100%;
+        background-color: var(--primary-color);
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    .nav-links.active {
+        display: flex; /* Shown when toggled */
+    }
+    
+    .btn-primary { display: none; } /* Hide button on small screens to save space */
+}

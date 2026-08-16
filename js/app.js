@@ -3,6 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('appointment-modal');
     const closeBtn = document.querySelector('.close-btn');
     const bookButtons = document.querySelectorAll('a[href="#book"]');
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    // Mobile Menu Logic
+    hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    });
 
     // Open modal when any "Book" button is clicked
     bookButtons.forEach(btn => {
